@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aditya | Data Analyst & Developer</title>
+  <meta name="description" content="Aditya — Aspiring Data Analyst skilled in Python, SQL, Excel, and Power BI." />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  
+  <style>
+    @media (max-width: 768px) {
+      .hero {
+        width: 100% !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#home">Aditya Teotia</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <ul class="nav-list">
+        <li><a href="#home"     class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about"    class="nav-link" data-section="about">About</a></li>
+        <li><a href="#resume"   class="nav-link" data-section="resume">Resume</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact"  class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO (full-bleed, light) -->
+    <section class="hero" id="home" aria-labelledby="intro-title">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Hello!</p>
+          <h1 id="intro-title">I’m <span class="brand-ink">Aditya</span></h1>
+          <h2 class="hero-sub">Aspiring Data Analyst</h2>
+          <p class="hero-text">I’m a Data Analyst  focused on turning data into actionable insights using Python, SQL, Excel, and Power BI.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://leetcode.com/u/aadityateotia2204/" target="_blank">LeetCode</a>
+            <a class="btn btn-outline" href="https://www.hackerrank.com/profile/aadityateotia221" target="_blank">Hacker Rank</a>
+            <a class="btn btn-outline" href="#projects">My Works</a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="images/ab.png" alt="Aditya — Data Analyst" />
+          <div class="tag">Aditya — Data Analyst</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (no card around photo/skills) -->
+    <section id="about" class="section about-section">
+      <div class="about-layout">
+        <!-- LEFT column -->
+        <aside class="about-left">
+          <img class="profile-img" src="images/IMG_5026.heic" alt="Aditya portrait" />
+
+          <ul class="profile-info">
+            <li><span class="label">Name:</span><span class="value">Aditya</span></li>
+            <li><span class="label">Job Role:</span><span class="value">Data Analyst</span></li>
+            <li><span class="label">Experience:</span><span class="value">Software Consultant Intern</span></li>
+            <li><span class="label">Address:</span><span class="value"> Noida, India</span></li>
+          </ul>
+
+          <h3 class="small-title">Skills</h3>
+
+          <!-- Sliders (fixed width and height) -->
+          <div class="meter">
+            <div class="meter-label"><span>SQL</span><span>80%</span></div>
+            <div class="meter-track"><div style="width:80%"></div></div>
+          </div>
+          <div class="meter">
+            <div class="meter-label"><span>PYTHON</span><span>78%</span></div>
+            <div class="meter-track"><div style="width:78%"></div></div>
+          </div>
+          <div class="meter">
+            <div class="meter-label"><span>Data Visualization</span><span>90%</span></div>
+            <div class="meter-track"><div style="width:90%"></div></div>
+          </div>
+          <div class="meter">
+            <div class="meter-label"><span>Statistical Analysis</span><span>85%</span></div>
+            <div class="meter-track"><div style="width:85%"></div></div>
+          </div>
+          <div class="meter">
+            <div class="meter-label"><span>Machine Learning</span><span>80%</span></div>
+            <div class="meter-track"><div style="width:80%"></div></div>
+          </div>
+        </aside>
+
+        <!-- RIGHT column -->
+        <div class="about-right">
+          <div class="about-title-wrap">
+            <h2 class="about-title">About Me</h2>
+            <div class="about-ghost" aria-hidden="true">About</div>
+          </div>
+
+          <p class="about-lead">
+            I’m a budding Data Analyst with experience in Python, SQL, and Power BI, and a passion for turning data into actionable insights.
+            I’ve worked on real‑world projects building dashboards, automating reports, and collaborating with stakeholders to drive data‑informed decisions.
+            With a strong foundation in Computer Science and hands‑on analytics work, I enjoy solving problems and creating solutions that make an impact.
+          </p>
+
+          <!-- Stacked items (one per row) -->
+          <dl class="kv-stack">
+            <div class="kv-row"><dt>Profile:</dt><dd>Data Science & Analytics</dd></div>
+            <div class="kv-row"><dt>Education:</dt><dd>B.Tech in Computer Science (2021–2025)</dd></div>
+            <div class="kv-row"><dt>Languages:</dt><dd>Python, SQL</dd></div>
+            <div class="kv-row"><dt>BI Tools:</dt><dd>Power BI, Excel</dd></div>
+            <div class="kv-row"><dt>Other Skills:</dt><dd>EDA, DAX, Data Cleaning, Cohort Analysis</dd></div>
+            <div class="kv-row"><dt>Interests:</dt><dd>Playing, Travel Photography, Reading</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- RESUME -->
+    <section id="resume" class="section fade-in">
+      <h2 class="section-title" data-ghost="Resume" style="display: flex; justify-content: center;">Resume</h2>
+      <br>
+      <hr>
+      <br>
+      <p class="section-lead" style="display: flex; justify-content: center;">
+        Aspiring Data Analyst skilled in transforming raw data into actionable insights through Python, SQL, and Power BI. Experienced in data visualization, exploratory data analysis, and building interactive dashboards for real-world projects.
+      </p>
+      <br>
+     
+
+      
+    
+      <!-- EXPERIENCE 
+      <h2 class="subhead" style="display: flex; justify-content: center;">Experience</h2>
+      <br>
+      <hr>
+      <div class="resume-content">
+        <div class="resume-card">
+          <p class="time">June 2025 – September 2025</p>
+          <h4>Software Consultant Intern</h4>
+          <p class="org">Online Retail Store</p>
+          <ul>
+            <li>Built dashboards and KPI tracking in Power BI and Excel.</li>
+            <li>Performed customer cohort and segmentation analysis.</li>
+            <li>Automated reporting workflows for faster decision-making.</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <br> -->
+     
+
+      <!-- EDUCATION -->
+      <h2 class="subhead" style="display: flex; justify-content: center;">Education</h2>
+      <br>
+      <hr>
+      <br>
+      <div class="resume-content">
+        <!-- B.Tech Card -->
+        <div class="resume-card">
+          <p class="time">2022 – 2026</p>
+          <h4>B.Tech — Computer Science</h4>
+          <p class="org">Bennett University</p>
+          <p class="org">Grade: First class distinction.</p>
+        </div>
+
+        <!-- School Education Card -->
+        <div class="resume-card">
+          <h4>School Education</h4>
+          <p class="org">Mount Litera Zee School</p>
+          <div style="display: flex; justify-content: space-between; margin: 6px 0;">
+            <span><strong>Class 12</strong> — 86.4%</span>
+            <span><strong>2021 – 2022</strong></span>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin: 6px 0;">
+            <span><strong>Class 10</strong> — 83.8%</span>
+            <span><strong>2019 – 2020</strong></span>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <!-- CV button OUTSIDE grid -->
+      <div style="width: 100%; display: flex; justify-content: center; margin-top: 30px;">
+        <a class="btn" href="Aditya's Resume.pdf" download target="_blank">Download CV</a>
+      </div>
+
+          
+
+    <!-- PROJECTS -->
+<section id="projects" class="section fade-in">
+  <h2 class="section-title" data-ghost="Projects" style="display: flex; justify-content: center;">Projects</h2>
+  <br>
+  <h3 style="display: flex; justify-content: center;">Below are the sample Data Analytics projects on SQL, Python, Power BI & ML.</h3>
+  <br><br>
+
+  <div class="project-gallery">
+    <div class="project-card">
+      <img src="images/DashBoard.png" alt="Blinkit Data Analysis">
+      <div class="project-info">
+        <h3>Fitness Analytic DashBoard</h3>
+        <p>Built an interactive fitness performance dashboard Using Power BI</p>
+        <a href="https://github.com/adityateotia22/Fitness-DashBoard" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/dietmate.png" alt="Banking Dashboard">
+      <div class="project-info">
+        <h3>Diet Mate</h3>
+        <p>A web app for personalized fitness insights.</p>
+        <a href="https://github.com/adityateotia22/Diet-Mate" target="_blank">View Dashboard</a>
+      </div>
+    </div>
+
+    
+
+    <div class="project-card">
+      <img src="images/fraud.jpg" alt="Fraud Detection">
+      <div class="project-info">
+        <h3>Fraud Detection</h3>
+        <p>Machine Learning + ARIMA model to detect suspicious transactions.</p>
+        <a href="https://github.com/adityateotia22/Fraud-Detection-" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- More Projects with Background -->
+<section class="more-projects">
+  <h2>More projects on <span>GitHub</span></h2>
+  <p>I love to solve business problems & uncover hidden data stories.</p>
+  <div class="more-buttons">
+    <a class="btn" href="https://github.com/adityateotia22" target="_blank">GitHub</a>
+    <a class="btn" href="https://app.powerbi.com/groups/me" target="_blank">Power BI Service</a>
+  </div>
+</section>
+<br>
+<br>
+<br>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title" data-ghost="Contact" style="display: flex; justify-content: center;">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon"><path d="M12 2C8.686 2 6 4.686 6 8c0 5.25 6 12 6 12s6-6.75 6-12c0-3.314-2.686-6-6-6zm0 8.5A2.5 2.5 0 1 1 12 5a2.5 2.5 0 0 1 0 5.5z" fill="currentColor"/></svg>
+          </div>
+          <h3>Address</h3>
+          <p class="muted"> Noida, India</p>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon"><path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l1.82-1.82a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.56.57a1 1 0 0 1 1 1V21a1 1 0 0 1-1 1C10.3 22 2 13.7 2 3a1 1 0 0 1 1-1h3.11a1 1 0 0 1 1 1c0 1.23.2 2.44.57 3.56a1 1 0 0 1-.24 1.01l-1.82 1.82z" fill="currentColor"/></svg>
+          </div>
+          <h3>Contact Number</h3>
+          <p class="muted"><a href="tel:+918077761940">+91 8077761940</a></p>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon"><path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z" fill="currentColor"/></svg>
+          </div>
+          <h3>Email Address</h3>
+          <p class="muted"><a href="mailto:aadityateotia2204@gmail.com">aadityateotia2204@gmail.com</a></p>
+        </div>
+
+         <div class="contact-item">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="icon"><path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm0 2c1.657 0 3.167.672 4.243 1.757A6.003 6.003 0 0 1 12 20a6 6 0 0 1 0-12c.34 0 .671.035.992.102A5.985 5.985 0 0 1 12 4z" fill="currentColor"/></svg>
+          </div>
+          <h3>Download Resume</h3>
+          <p class="muted"><a class="link-underline" href="Aditya's Resume.pdf    " target="_blank" download>resumelink</a></p>
+        </div>
+      </div> 
+
+      <div class="contact-social">
+        <span class="muted">Find me on</span>
+        <a class="social-pill" href="https://www.linkedin.com/in/aditya-teotia-ab2ab025a/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" class="icon-sm" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.07c.67-1.2 2.32-2.47 4.77-2.47 5.1 0 6.05 3.36 6.05 7.73V24h-5V16.4c0-1.81-.03-4.15-2.53-4.15-2.53 0-2.92 1.98-2.92 4.02V24H8z" fill="currentColor"/>
+          </svg>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Aditya. All rights reserved.</small>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const list = document.querySelector('.nav-list');
+    toggle.addEventListener('click', () => {
+      const open = list.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    // Active nav link on scroll
+    const links = [...document.querySelectorAll('.nav-list a[data-section]')];
+    const map = Object.fromEntries(links.map(a => [a.dataset.section, a]));
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.classList.remove('active'));
+          const id = e.target.id || e.target.getAttribute('id');
+          if (map[id]) map[id].classList.add('active');
+        }
+      });
+    }, { rootMargin: "-40% 0px -55% 0px", threshold: 0 });
+
+    ["home","about","skills","resume","projects","contact"].forEach(id => {
+      const el = document.getElementById(id) || document.querySelector(`#${id}`);
+      if (el) obs.observe(el);
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+  
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+  
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script>
+  
+</body>
+</html>
